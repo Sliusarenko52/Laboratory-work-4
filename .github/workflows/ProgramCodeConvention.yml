@@ -15,6 +15,6 @@ jobs:
         uses: super-linter/super-linter@v7
         env:
           VALIDATE_JAVA: true
-          FILTER_REGEX_INCLUDE: .*ProgramCode\.java$
+          FILTER_REGEX_INCLUDE: .*ProgramCodeModified\.java$
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
